@@ -28,29 +28,30 @@ const Tables = () => {
               <CTable hover>
                 <CTableHead>
                   <CTableRow>
-                    <CTableHeaderCell scope="col">#</CTableHeaderCell>
-                    <CTableHeaderCell scope="col">Class</CTableHeaderCell>
-                    <CTableHeaderCell scope="col">Heading</CTableHeaderCell>
-                    <CTableHeaderCell scope="col">Heading</CTableHeaderCell>
+                    <CTableHeaderCell scope="col">No.</CTableHeaderCell>
+                    <CTableHeaderCell scope="col">Certificate</CTableHeaderCell>
+                    <CTableHeaderCell scope="col">User ID</CTableHeaderCell>
+                    <CTableHeaderCell scope="col">Description</CTableHeaderCell>
                   </CTableRow>
                 </CTableHead>
                 <CTableBody>
                   <CTableRow>
                     <CTableHeaderCell scope="row">1</CTableHeaderCell>
-                    <CTableDataCell>Mark</CTableDataCell>
+                    <CTableDataCell>0x97A0dED643b8A81D7375B01c52c2711954389918</CTableDataCell>
                     <CTableDataCell>Otto</CTableDataCell>
-                    <CTableDataCell>@mdo</CTableDataCell>
+                    <CTableDataCell>NFT</CTableDataCell>
                   </CTableRow>
                   <CTableRow>
                     <CTableHeaderCell scope="row">2</CTableHeaderCell>
-                    <CTableDataCell>Jacob</CTableDataCell>
-                    <CTableDataCell>Thornton</CTableDataCell>
-                    <CTableDataCell>@fat</CTableDataCell>
+                    <CTableDataCell>0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97</CTableDataCell>
+                    <CTableDataCell>Midas</CTableDataCell>
+                    <CTableDataCell>Gold</CTableDataCell>
                   </CTableRow>
                   <CTableRow>
                     <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                    <CTableDataCell colSpan={2}>Larry the Bird</CTableDataCell>
-                    <CTableDataCell>@twitter</CTableDataCell>
+                    <CTableDataCell>0x388C818CA8B9251b393131C08a736A67ccB19297</CTableDataCell>
+                    <CTableDataCell>Junia</CTableDataCell>
+                    <CTableDataCell>Cryptocurrencies</CTableDataCell>
                   </CTableRow>
                 </CTableBody>
               </CTable>
