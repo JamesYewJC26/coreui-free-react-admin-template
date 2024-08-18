@@ -35,11 +35,8 @@ const AppSidebar = () => {
         dispatch({ type: 'set', sidebarShow: visible })
       }}
     >
-      <CSidebarHeader className="border-bottom">
-        <CSidebarBrand to="/">
-          <h3>Smart contract</h3>
-        </CSidebarBrand>
-        
+      <CSidebarHeader>
+          <h3>Smart contract</h3>  
       </CSidebarHeader>
       <AppSidebarNav items={navigation} />
     </CSidebar>
